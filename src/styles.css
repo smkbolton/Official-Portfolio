@@ -87,4 +87,54 @@ p {
 
 .project-image {
   background-color: var(--hero-bg-color);
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 56px;
+  }
+
+  .project-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .project-image {
+    padding: auto 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1140px;
+  }
 }
