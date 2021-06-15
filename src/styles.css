@@ -27,6 +27,10 @@ p {
   line-height: 30px;
 }
 
+.container img {
+  margin: 15px auto;
+}
+
 .hero {
   background-color: var(--hero-bg-color);
   /*#bdf2fd*/
@@ -53,10 +57,9 @@ p {
   line-height: 2;
 }
 
-/*.hero a {
-  margin: 10px 0;
+.row {
+  margin: 40px auto;
 }
-*/
 
 .btn-contact {
   color: floralwhite;
@@ -78,5 +81,10 @@ p {
   padding: 12px 20px;
 }
 
-.project-content p {
+.project-content {
+  padding: 0 10px 0;
+}
+
+.project-image {
+  background-color: var(--hero-bg-color);
 }
