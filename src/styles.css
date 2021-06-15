@@ -16,9 +16,15 @@ h6 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 p {
   font-family: var(--content-font);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -47,9 +53,10 @@ p {
   line-height: 2;
 }
 
-.hero a {
+/*.hero a {
   margin: 10px 0;
 }
+*/
 
 .btn-contact {
   color: floralwhite;
@@ -59,4 +66,17 @@ p {
   font-size: 18px;
   padding: 12px 20px;
   box-shadow: var(--btn-shadow);
+  margin: 10px 0;
+}
+
+.project-link {
+  color: var(--btn-bg-color);
+  border: 1px solid var(--btn-bg-color);
+  border-radius: 4px;
+  line-height: 28px;
+  font-size: 18px;
+  padding: 12px 20px;
+}
+
+.project-content p {
 }
