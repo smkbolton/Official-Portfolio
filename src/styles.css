@@ -1,13 +1,62 @@
-body {
-  text-align: center;
+:root {
+  --hero-bg-color: #d1f7ff;
+  --heading-font: "Playfair Display", serif;
+  --content-font: "Poppins", sans-serif;
+  --content-color: #404849;
+  --btn-bg-color: #0dcaf0;
+  --btn-shadow: 1px 1px 1px 1px rgba(39, 33, 66, 0.5);
 }
-
-h1 {
-  font-family: "Playfair Display", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--content-font);
   font-weight: normal;
+}
+
+.hero {
+  background-color: var(--hero-bg-color);
+  /*#bdf2fd*/
+  text-align: center;
+  padding: 100px 10px;
+}
+
+.hero p {
+  font-size: 32px;
+  /*font-weight: bold;*/
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: normal;
+}
+
+.hero h2 {
+  color: var(--content-color);
+  font-family: var(--content-font);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.hero a {
+  margin: 10px 0;
+}
+
+.btn-contact {
+  color: floralwhite;
+  background-color: var(--btn-bg-color);
+  border-radius: 4px;
+  line-height: 28px;
+  font-size: 18px;
+  padding: 12px 20px;
+  box-shadow: var(--btn-shadow);
 }
