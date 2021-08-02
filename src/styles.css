@@ -70,7 +70,7 @@ p {
   font-size: 18px;
   padding: 12px 20px;
   box-shadow: var(--btn-shadow);
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 
 .project-link {
