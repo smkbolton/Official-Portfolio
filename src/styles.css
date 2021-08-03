@@ -92,22 +92,35 @@ p {
 }
 
 /*ABOUT SECTION*/
-.about-section {
+.content-section {
   padding: 160px 20px;
 }
 
-.about-content {
+.content {
   margin: 30px;
+  text-align: center;
 }
 
-.about-content h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-content h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--content-font);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--content-font);
+  opacity: 80%;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 @media (max-width: 768px) {
