@@ -29,7 +29,7 @@ p {
 }
 
 .container img {
-  margin: 15px auto;
+  margin: 10px auto;
 }
 
 .hero {
@@ -136,6 +136,35 @@ p {
   .project-image {
     padding: auto 0;
   }
+}
+
+.logo {
+  max-width: 64px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-top: 32px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--content-color);
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--btn-bg-color);
 }
 
 @media (min-width: 576px) {
