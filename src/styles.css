@@ -21,6 +21,10 @@ h2 {
   font-size: 40px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--content-font);
   font-weight: normal;
@@ -124,8 +128,25 @@ p {
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
   .hero h1 {
     font-size: 56px;
+  }
+
+  .hero {
+    padding: 80px 20px;
   }
 
   .project-content {
@@ -135,6 +156,11 @@ p {
 
   .project-image {
     padding: auto 0;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
   }
 }
 
@@ -165,6 +191,40 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--btn-bg-color);
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer .contact-box {
+  background-color: var(--hero-bg-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--content-color);
+}
+
+footer .email-link:hover {
+  color: var(--btn-bg-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 15px;
+  color: white;
+  background-color: var(--btn-bg-color);
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--btn-bg-color);
+  background-color: var(--hero-bg-color);
 }
 
 @media (min-width: 576px) {
