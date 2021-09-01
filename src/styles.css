@@ -21,7 +21,7 @@ h2 {
   font-size: 40px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -40,7 +40,7 @@ p {
   background-color: var(--hero-bg-color);
   /*#bdf2fd*/
   text-align: center;
-  padding: 100px 10px;
+  padding: 80px 10px;
 }
 
 .hero p {
@@ -97,7 +97,7 @@ p {
 
 /*ABOUT SECTION*/
 .content-section {
-  padding: 160px 20px;
+  padding: 10px 20px;
 }
 
 .content {
@@ -106,8 +106,8 @@ p {
 }
 
 .content h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 54px;
+  line-height: 60px;
 }
 
 .content h2 {
@@ -137,16 +137,12 @@ p {
     font-size: 36px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
   .hero h1 {
-    font-size: 56px;
-  }
-
-  .hero {
-    padding: 80px 20px;
+    font-size: 54px;
   }
 
   .project-content {
